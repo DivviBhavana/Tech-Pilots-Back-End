@@ -35,6 +35,8 @@ const priceRoutes = require("./routes/price");
 app.use("/api/price", priceRoutes);
 
 
+
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
